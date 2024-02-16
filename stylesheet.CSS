@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: green;
+    height: 5vh;
+    margin: 20px 5px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: gray;
+    margin: 20px 5px;
+    min-height: 80vh ;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.footer{
+    margin: 0px 5px;
+    background-color: black;
+    height: 150px;
+    padding: 10px;
+    
+    
+}
+.blog{
+    background-color: black;
+    height: 240px;
+    margin: 20px 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.poster{
+    /* background-color:red ; */
+    height: 75%;
+    width: 40%;
+    margin: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 0px;
+    vertical-align: top;
+    border:2px solid white;
+
+}
+.caption{
+    /* background-color: green; */
+    height: 75%;
+    width : 55%;
+    margin: 20px;
+    display: inline-block;
+    margin-left: 0px;
+    vertical-align: top; 
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    
+
+}
+.posterimg{
+    height: 100%;
+    width: 100%;
+}
+.headingbox{
+    /* background-color: white; */
+    margin: 0px 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    height: 20%;
+    border-bottom: 5px solid white;
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+.headingbox p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Protest Strike', sans-serif;
+}
+.descriptionbox{
+    /* background-color: red; */
+    margin: 0px 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    height: 70%;
+    font-size: 12px;
+    font-family:  'Roboto', sans-serif;
+
+
+}
+.footerbox{
+    /* background-color: red; */
+    max-height: 90%;
+    width: 30%;
+    margin: 10px 14px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:  'Roboto', sans-serif;
+
+}
+.list{
+    margin: 20px;
+}
