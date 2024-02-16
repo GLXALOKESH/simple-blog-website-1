@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .centered-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: gray;
+            padding: 20px;
+            height: 80vh;
+            width: 45vw;
+            border: 5px solid black;
+        }
+
+        body {
+            background-image: url(591.jpg);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+
+            .login-form {
+                background-color: white;
+                height: 80%;
+                width: 80%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: 3px solid black;
+
+            }
+
+            label {
+                font-size: 19px;
+            }
+
+            .form {
+                margin: 5px;
+            }
+
+            .login-heading {
+                margin: 50px;
+            }
+
+            .login-heading>h1 {
+                text-align: center;
+                font-size: 50px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bolder;
+
+            }
+
+            .username {
+                margin-bottom: 20px;
+            }
+
+            .password {
+                margin-bottom: 20px;
+            }
+
+            .submit{
+                height: 30px;
+            }
+            .login-button{
+                text-align: right;
+                margin-right: 70px;
+            }
+            #pass1{
+                width: 185px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centered-box">
+
+
+        <form action="post
+        ">
+            <div class="login-form">
+                <div class="login-heading">
+                    <h1>Login</h1>
+                </div>
+                <div class="form username">
+                    <label for="name"> Username:</label>
+                    <input type="username" name="usernameme">
+
+                </div>
+
+                <div class="form password">
+                    <label for="password">Password:</label>
+
+                    <input type="password" name="password" id="pass1">
+                </div>
+                <div class="form captcha">
+                    <img src="226md.png" alt="captcha">
+                    <div>
+                        <label for="security-code">Enter security code</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form login-button">
+                        <input type="submit" class="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
